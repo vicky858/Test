@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="PhE-VX-Eot">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--My Location View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="MyLocationViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="G3n-wK-J4k"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2438" y="233"/>
+        </scene>
+        <!--Mail-->
+        <scene sceneID="Zci-Ve-2OL">
+            <objects>
+                <navigationController id="HMz-kK-Ks5" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Mail" image="Mail-icon.png" selectedImage="Mail-icon.png" id="mAK-ZK-qi2"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Qsa-Bt-ZQY">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="fvr-8j-zMt" kind="relationship" relationship="rootViewController" id="yw1-mg-t5P"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="I0S-89-FhG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1676" y="2291"/>
+        </scene>
+        <!--Mail View Controller-->
+        <scene sceneID="inm-7m-jPs">
+            <objects>
+                <viewController id="fvr-8j-zMt" customClass="MailViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="JfQ-Ko-jkv"/>
+                        <viewControllerLayoutGuide type="bottom" id="4ko-Ez-3ni"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="n4A-d4-oZK">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Kc-Al-LAL">
+                                <rect key="frame" x="255" y="280" width="91" height="40"/>
+                                <color key="backgroundColor" cyan="0.015319258170000001" magenta="1" yellow="0.0" black="0.0" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBold" family="Helvetica Neue" pointSize="23"/>
+                                <state key="normal" title="Send Mail">
+                                    <color key="titleColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="sendMail:" destination="fvr-8j-zMt" eventType="touchUpInside" id="Nuq-6w-KLU"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="3Kc-Al-LAL" firstAttribute="centerY" secondItem="n4A-d4-oZK" secondAttribute="centerY" id="DEJ-9M-TyK"/>
+                            <constraint firstItem="3Kc-Al-LAL" firstAttribute="centerX" secondItem="n4A-d4-oZK" secondAttribute="centerX" id="aPz-CI-80Z"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="tz1-li-gOp"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RmY-ly-1mj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2438" y="2291"/>
+        </scene>
+        <!--Audio&Video-->
+        <scene sceneID="d70-WD-31b">
+            <objects>
+                <navigationController id="b4Q-49-4wp" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Audio&amp;Video" image="music-512.png" selectedImage="music-512.png" id="aPC-eW-OwA">
+                        <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="0.0"/>
+                    </tabBarItem>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="FuN-Vy-sg7">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="TIp-z1-yQf" kind="relationship" relationship="rootViewController" id="SdE-of-7bh"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rRJ-4y-NBf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1676" y="1589"/>
+        </scene>
+        <!--Location-->
+        <scene sceneID="qqz-d0-ulr">
+            <objects>
+                <navigationController id="emX-4l-k1A" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Location" image="iconbeast-pro.png" selectedImage="iconbeast-pro.png" id="yML-ZX-EyC"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="dnE-D2-vqe">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="34B-lf-OI3" kind="relationship" relationship="rootViewController" id="AP7-Wx-O6M"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2qA-Zu-pgH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1676" y="898"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Fnj-hI-ayF">
+            <objects>
+                <viewController id="34B-lf-OI3" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="q4X-AP-3Nw"/>
+                        <viewControllerLayoutGuide type="bottom" id="gJ6-ym-ejg"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="CLa-rI-F8C">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Latitude:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LPw-ff-IoA">
+                                <rect key="frame" x="149" y="180" width="60" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBold" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My Location Demo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zmb-l6-J6U">
+                                <rect key="frame" x="181" y="100" width="238" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="238" id="NUW-oO-ejx"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBold" family="Helvetica Neue" pointSize="32"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Longitude:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nPR-NO-yla">
+                                <rect key="frame" x="137" y="236" width="72" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBold" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Address:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Ae-5E-Y3r">
+                                <rect key="frame" x="149" y="289" width="60" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBold" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="For Longitude Value" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="quE-hC-8wf">
+                                <rect key="frame" x="270" y="236" width="134" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBold" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="For Latitude Value" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aOm-fC-rDd">
+                                <rect key="frame" x="270" y="180" width="122" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBold" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a8E-zr-IKA">
+                                <rect key="frame" x="242" y="427" width="116" height="37"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="116" id="i5i-0R-TOG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBold" family="Helvetica Neue" pointSize="15"/>
+                                <state key="normal" title="Get My Location">
+                                    <color key="titleColor" cyan="0.015319258170000001" magenta="1" yellow="0.0" black="0.0" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="getCurrentLocation:" destination="34B-lf-OI3" eventType="touchUpInside" id="Abl-pu-NQ6"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="For Address" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hNg-9G-egJ">
+                                <rect key="frame" x="270" y="343" width="80" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBold" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="gJ6-ym-ejg" firstAttribute="top" secondItem="a8E-zr-IKA" secondAttribute="bottom" constant="87" id="0SU-UU-0NV"/>
+                            <constraint firstItem="a8E-zr-IKA" firstAttribute="top" secondItem="hNg-9G-egJ" secondAttribute="bottom" constant="63" id="7dK-Ig-iY7"/>
+                            <constraint firstItem="Zmb-l6-J6U" firstAttribute="centerX" secondItem="CLa-rI-F8C" secondAttribute="centerX" id="BhM-pw-VIc"/>
+                            <constraint firstItem="LPw-ff-IoA" firstAttribute="baseline" secondItem="aOm-fC-rDd" secondAttribute="baseline" id="C1z-B0-WFf"/>
+                            <constraint firstItem="8Ae-5E-Y3r" firstAttribute="centerY" secondItem="CLa-rI-F8C" secondAttribute="centerY" id="D9b-q3-kZt"/>
+                            <constraint firstItem="nPR-NO-yla" firstAttribute="baseline" secondItem="quE-hC-8wf" secondAttribute="baseline" id="DFq-sC-nV0"/>
+                            <constraint firstItem="hNg-9G-egJ" firstAttribute="top" secondItem="quE-hC-8wf" secondAttribute="bottom" constant="86" id="DHZ-JH-Pdz"/>
+                            <constraint firstItem="LPw-ff-IoA" firstAttribute="top" secondItem="Zmb-l6-J6U" secondAttribute="bottom" constant="49" id="IkT-bK-FQi"/>
+                            <constraint firstItem="aOm-fC-rDd" firstAttribute="leading" secondItem="quE-hC-8wf" secondAttribute="leading" id="Kdm-Dl-rBm"/>
+                            <constraint firstItem="quE-hC-8wf" firstAttribute="baseline" secondItem="nPR-NO-yla" secondAttribute="firstBaseline" id="Oo8-n3-vjz"/>
+                            <constraint firstItem="aOm-fC-rDd" firstAttribute="baseline" secondItem="LPw-ff-IoA" secondAttribute="firstBaseline" id="QZT-ZI-CjA"/>
+                            <constraint firstItem="aOm-fC-rDd" firstAttribute="leading" secondItem="LPw-ff-IoA" secondAttribute="trailing" constant="61" id="RKH-Ep-ib8"/>
+                            <constraint firstItem="quE-hC-8wf" firstAttribute="leading" secondItem="hNg-9G-egJ" secondAttribute="leading" id="T0z-uW-wFr"/>
+                            <constraint firstItem="nPR-NO-yla" firstAttribute="leading" secondItem="CLa-rI-F8C" secondAttribute="leading" constant="137" id="cQG-gy-tZD"/>
+                            <constraint firstItem="LPw-ff-IoA" firstAttribute="leading" secondItem="8Ae-5E-Y3r" secondAttribute="leading" id="cR4-cn-QU2"/>
+                            <constraint firstItem="Zmb-l6-J6U" firstAttribute="centerX" secondItem="a8E-zr-IKA" secondAttribute="centerX" id="dgm-fQ-JTY"/>
+                            <constraint firstItem="Zmb-l6-J6U" firstAttribute="top" secondItem="q4X-AP-3Nw" secondAttribute="bottom" constant="36" id="g6E-tk-7ND"/>
+                            <constraint firstItem="nPR-NO-yla" firstAttribute="top" secondItem="LPw-ff-IoA" secondAttribute="bottom" constant="35" id="kvr-UL-3VR"/>
+                            <constraint firstItem="8Ae-5E-Y3r" firstAttribute="top" secondItem="nPR-NO-yla" secondAttribute="bottom" constant="32" id="yIe-j7-Bff"/>
+                            <constraint firstItem="nPR-NO-yla" firstAttribute="trailing" secondItem="8Ae-5E-Y3r" secondAttribute="trailing" id="yNv-8a-lAC"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="vJu-MI-BXN"/>
+                    <connections>
+                        <outlet property="addressLabel" destination="hNg-9G-egJ" id="VvD-5K-GVU"/>
+                        <outlet property="latitudeLabel" destination="aOm-fC-rDd" id="pEO-Ci-F6G"/>
+                        <outlet property="longitudeLabel" destination="quE-hC-8wf" id="ImM-Yc-Pck"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RLI-7w-brX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2438" y="898"/>
+        </scene>
+        <!--Media View Controller-->
+        <scene sceneID="vOa-nL-a8x">
+            <objects>
+                <viewController id="TIp-z1-yQf" customClass="MediaViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="swE-4K-KpY"/>
+                        <viewControllerLayoutGuide type="bottom" id="7Q5-f8-sKe"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="iAY-SY-WbC" customClass="Medi">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Te4-jM-Gxn">
+                                <rect key="frame" x="264" y="215" width="72" height="30"/>
+                                <color key="backgroundColor" red="0.9369205652" green="0.0" blue="0.2156862745" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="72" id="AW9-VQ-Ipy"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBold" family="Helvetica Neue" pointSize="15"/>
+                                <color key="tintColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Play Video"/>
+                                <connections>
+                                    <action selector="playVideo:" destination="TIp-z1-yQf" eventType="touchUpInside" id="9z2-0z-i5O"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WLo-5E-k4j">
+                                <rect key="frame" x="264" y="285" width="72" height="30"/>
+                                <color key="backgroundColor" red="0.9369205652" green="0.0" blue="0.2156862745" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBold" family="Helvetica Neue" pointSize="15"/>
+                                <color key="tintColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Play Audio"/>
+                                <connections>
+                                    <action selector="playAudio:" destination="TIp-z1-yQf" eventType="touchUpInside" id="gir-qZ-wzp"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="WLo-5E-k4j" firstAttribute="centerY" secondItem="iAY-SY-WbC" secondAttribute="centerY" id="Lup-AU-SsY"/>
+                            <constraint firstItem="WLo-5E-k4j" firstAttribute="top" secondItem="Te4-jM-Gxn" secondAttribute="bottom" constant="40" id="V4b-h2-9hI"/>
+                            <constraint firstItem="Te4-jM-Gxn" firstAttribute="trailing" secondItem="WLo-5E-k4j" secondAttribute="trailing" id="W9c-J4-Sow"/>
+                            <constraint firstItem="Te4-jM-Gxn" firstAttribute="centerX" secondItem="iAY-SY-WbC" secondAttribute="centerX" id="YCY-CY-mVM"/>
+                            <constraint firstItem="Te4-jM-Gxn" firstAttribute="leading" secondItem="WLo-5E-k4j" secondAttribute="leading" id="aOb-om-Kt1"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="gHY-Sk-tIR"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CcO-LC-VqN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2438" y="1589"/>
+        </scene>
+        <!--Latitude&Longitude-->
+        <scene sceneID="780-w5-jcK">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="KTe-Az-wVS" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Latitude&amp;Longitude" image="iconbeast-pro.png" selectedImage="iconbeast-pro.png" id="jVT-Qn-DVz"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="voA-uA-a7L">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="tZw-sI-7cL"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VeR-rS-hyF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1676" y="233"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="5vY-H8-d4h">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="PhE-VX-Eot" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="gU1-gP-lSx">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="emX-4l-k1A" kind="relationship" relationship="viewControllers" id="Hvc-DN-VhW"/>
+                        <segue destination="KTe-Az-wVS" kind="relationship" relationship="viewControllers" id="ZNX-94-Z3I"/>
+                        <segue destination="b4Q-49-4wp" kind="relationship" relationship="viewControllers" id="c4c-8W-AeF"/>
+                        <segue destination="HMz-kK-Ks5" kind="relationship" relationship="viewControllers" id="uU0-4Q-PbK"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Atb-XE-hn2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="933" y="233"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Mail-icon.png" width="30" height="30"/>
+        <image name="iconbeast-pro.png" width="30" height="30"/>
+        <image name="music-512.png" width="30" height="30"/>
+    </resources>
+</document>
