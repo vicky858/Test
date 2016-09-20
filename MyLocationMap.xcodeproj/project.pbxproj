@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F3850581D916E470051BFC4 /* DATA.xls in Resources */ = {isa = PBXBuildFile; fileRef = 2F3850571D916E470051BFC4 /* DATA.xls */; };
 		2F40C0E71D8145AD0010CBDD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F40C0E61D8145AD0010CBDD /* main.m */; };
 		2F40C0EA1D8145AD0010CBDD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F40C0E91D8145AD0010CBDD /* AppDelegate.m */; };
 		2F40C0F01D8145AD0010CBDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F40C0EE1D8145AD0010CBDD /* Main.storyboard */; };
@@ -46,6 +47,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2F3850571D916E470051BFC4 /* DATA.xls */ = {isa = PBXFileReference; lastKnownFileType = file; path = DATA.xls; sourceTree = "<group>"; };
 		2F40C0E21D8145AD0010CBDD /* MyLocationMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyLocationMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F40C0E61D8145AD0010CBDD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2F40C0E81D8145AD0010CBDD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -146,6 +148,7 @@
 				2F40C14E1D8171CC0010CBDD /* MailViewController.h */,
 				2F40C14F1D8171CC0010CBDD /* MailViewController.m */,
 				2F40C0EE1D8145AD0010CBDD /* Main.storyboard */,
+				2F3850571D916E470051BFC4 /* DATA.xls */,
 				2F40C1361D8169FC0010CBDD /* videoTest.mov */,
 				2F40C1531D8175F70010CBDD /* Mail-icon.png */,
 				2F40C1301D8168020010CBDD /* audioTest.mp3 */,
@@ -280,6 +283,7 @@
 				2F40C1561D81769D0010CBDD /* images1.png in Resources */,
 				2F40C1371D8169FC0010CBDD /* videoTest.mov in Resources */,
 				2F40C1471D816D840010CBDD /* iconbeast-pro.png in Resources */,
+				2F3850581D916E470051BFC4 /* DATA.xls in Resources */,
 				2F40C0F51D8145AD0010CBDD /* LaunchScreen.storyboard in Resources */,
 				2F40C0F21D8145AD0010CBDD /* Assets.xcassets in Resources */,
 				2F40C0F01D8145AD0010CBDD /* Main.storyboard in Resources */,
