@@ -34,6 +34,7 @@
 		2F40C1541D8175F70010CBDD /* Mail-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F40C1531D8175F70010CBDD /* Mail-icon.png */; };
 		2F40C1561D81769D0010CBDD /* images1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F40C1551D81769D0010CBDD /* images1.png */; };
 		2F40C1581D81777A0010CBDD /* location.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F40C1571D81777A0010CBDD /* location.png */; };
+		2FDDF4921D955F0E00258504 /* DATAnew.xls in Resources */ = {isa = PBXBuildFile; fileRef = 2FDDF4911D955F0E00258504 /* DATAnew.xls */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +86,7 @@
 		2F40C1531D8175F70010CBDD /* Mail-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Mail-icon.png"; sourceTree = "<group>"; };
 		2F40C1551D81769D0010CBDD /* images1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = images1.png; sourceTree = "<group>"; };
 		2F40C1571D81777A0010CBDD /* location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = location.png; sourceTree = "<group>"; };
+		2FDDF4911D955F0E00258504 /* DATAnew.xls */ = {isa = PBXFileReference; lastKnownFileType = file; path = DATAnew.xls; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +151,7 @@
 				2F40C14F1D8171CC0010CBDD /* MailViewController.m */,
 				2F40C0EE1D8145AD0010CBDD /* Main.storyboard */,
 				2F3850571D916E470051BFC4 /* DATA.xls */,
+				2FDDF4911D955F0E00258504 /* DATAnew.xls */,
 				2F40C1361D8169FC0010CBDD /* videoTest.mov */,
 				2F40C1531D8175F70010CBDD /* Mail-icon.png */,
 				2F40C1301D8168020010CBDD /* audioTest.mp3 */,
@@ -281,6 +284,7 @@
 				2F40C1541D8175F70010CBDD /* Mail-icon.png in Resources */,
 				2F40C1581D81777A0010CBDD /* location.png in Resources */,
 				2F40C1561D81769D0010CBDD /* images1.png in Resources */,
+				2FDDF4921D955F0E00258504 /* DATAnew.xls in Resources */,
 				2F40C1371D8169FC0010CBDD /* videoTest.mov in Resources */,
 				2F40C1471D816D840010CBDD /* iconbeast-pro.png in Resources */,
 				2F3850581D916E470051BFC4 /* DATA.xls in Resources */,
