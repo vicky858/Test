@@ -11,9 +11,9 @@
 
 
 @interface MapAnnotation : NSObject<MKAnnotation>
-@property (nonatomic, strong) NSString *title;
+@property (nonatomic, strong) NSString *title1;
 @property (nonatomic, readwrite) CLLocationCoordinate2D coordinate;
 
-- (id)initWithTitle:(NSString *)title andCoordinate:
+- (id)initWithTitle:(NSString *)title2 andCoordinate:
 (CLLocationCoordinate2D)coordinate2d;
 @end
