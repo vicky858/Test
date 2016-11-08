@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F17AAA21DD1FF67007BB277 /* data111.xls in Resources */ = {isa = PBXBuildFile; fileRef = 2F17AAA11DD1FF67007BB277 /* data111.xls */; };
 		2F40C0E71D8145AD0010CBDD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F40C0E61D8145AD0010CBDD /* main.m */; };
 		2F40C0EA1D8145AD0010CBDD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F40C0E91D8145AD0010CBDD /* AppDelegate.m */; };
 		2F40C0F01D8145AD0010CBDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F40C0EE1D8145AD0010CBDD /* Main.storyboard */; };
@@ -46,6 +47,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2F17AAA11DD1FF67007BB277 /* data111.xls */ = {isa = PBXFileReference; lastKnownFileType = file; path = data111.xls; sourceTree = "<group>"; };
 		2F40C0E21D8145AD0010CBDD /* MyLocationMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyLocationMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F40C0E61D8145AD0010CBDD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2F40C0E81D8145AD0010CBDD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -141,6 +143,7 @@
 				2F40C1181D8147E80010CBDD /* MyLocationViewController.m */,
 				2F67DBDB1DB9DA3F004AD93F /* dataNew.xls */,
 				2F67DBDC1DB9DA3F004AD93F /* DATA1.xls */,
+				2F17AAA11DD1FF67007BB277 /* data111.xls */,
 				2F40C1241D8162260010CBDD /* MapAnnotation.h */,
 				2F40C1251D8162260010CBDD /* MapAnnotation.m */,
 				2F40C11A1D814EDE0010CBDD /* ViewController.h */,
@@ -280,6 +283,7 @@
 			files = (
 				2F40C1431D816C510010CBDD /* music-512.png in Resources */,
 				2F40C1541D8175F70010CBDD /* Mail-icon.png in Resources */,
+				2F17AAA21DD1FF67007BB277 /* data111.xls in Resources */,
 				2F40C1581D81777A0010CBDD /* location.png in Resources */,
 				2F40C1561D81769D0010CBDD /* images1.png in Resources */,
 				2F40C1371D8169FC0010CBDD /* videoTest.mov in Resources */,
